@@ -1,0 +1,56 @@
+{
+  "record_info": {
+    "id_1": "https://www.doi.org/10.1897/687-asdg9-88.10",
+    "repository": "SearchRxiv, https://www.searchrxiv.org",
+    "internal_id": "10.1897/687-asdg9-88.10"
+  },
+  "authors": [
+    {
+      "name": "Seedre, M",
+      "ORCID": "0000-0002-3635-6354",
+      "email": "m.seedre@mail.com"
+    },
+    {
+      "name": "Felton, A"
+    },
+    {
+      "name": "Lindbladh, M"
+    }
+  ],
+  "date": {
+    "data_entry": "2021.03.02",
+    "strategy_exported": "2021.03.02",
+    "search_conducted": "2020.01.01",
+    "search_updated_1": "2021.02.01"
+  },
+  "string_name": "final",
+  "keywords": ["Alternative forest management", "Even-aged silviculture", "Uneven-aged silviculture", "Partial harvest", "Selection harvest", "Clear cut", "Clear fell"],
+  "related_records": "https://www.doi.org/10.5438/67dgh-t5666oop",
+  "parent_record": "https://www.doi.org/10.5438/67dgh-t56-78p",
+  "platform": "Web of Science",
+  "database": ["Social Sciences Citation Index (SSCI)"],
+  "search_string": {
+    "full_string": "TS=(clear-cut* OR clearcut* OR clearfell* OR clear-fell* OR \"clear fell*\" OR even-aged OR uneven-aged) AND (forest* OR tree*)",
+    "management block": "TS=(clear-cut* OR clearcut* OR clearfell* OR clear-fell* OR \"clear fell*\" OR even-aged OR uneven-aged)",
+    "forest block": "TS=(forest* OR tree*)"
+  },
+  "search_field": null,
+  "database_time_coverage": {
+    "database_time_from": "1945.01.01",
+    "database_time_to": "2021.12.31"
+  },
+  "search_time_span": null,
+  "search_language": ["en"],
+  "settings": {
+    "lemmatization": "TRUE",
+    "spellchecking": "Suggest"
+  },
+  "quality_assurance": ["appears in published protocol"],
+  "validation_report": ["https://www.doi.org/10.5438/67dgh-t56-78b"],
+  "peer_review": ["https://pubpeer.com/publications/3C0A753937515D4ACAEDB31CAE22C2"],
+  "description": "The search was conducted as part of a systematic review, developed during the publication of a protocol ([link]) and finalised during conduct of a systematic review ([link])",
+  "review_question": "What is the impact of continuous cover forestry compared to clearcut forestry on stand-level biodiversity in boreal and temperate forests?",
+  "review_type": "systematic review",
+  "linked_protocol": ["https://www.doi.org/10.1186/s13750-018-0138-y"],
+  "linked_report": ["https://www.doi.org/10.5438/55e-987-a5-t5c0"]
+}
