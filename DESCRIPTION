@@ -1,0 +1,35 @@
+Package: searchrecorder
+Title: Embed and Extract Search Histories Within RIS Files For Transparent and Repeatable Bibliographic Searching
+Version: 0.0.0.9
+Authors@R: c(
+  person(given = "Neal",
+         family = "Haddaway",
+         role = c("aut", "cre"),
+         email = "nealhaddaway@gmail.com",
+         comment = c(ORCID = "0000-0003-3902-2234"))
+Description: Searching for academic information in bibliographic 
+    databases often needs to be reported accurately and comprensively, 
+    for example when conducting a systematic review. Reporting search 
+    histories is challenging, however, since no standardised file 
+    format has previously been established to ensure sufficient 
+    information is reporting in the correct way to allow for 
+    evaluation and replication of searches. This package allows users 
+    to embed a standardised search history file within a traditional 
+    RIS reference file, recording how the references within were 
+    obtained. Functions allow search history files (stored as JSONs) 
+    to be embedded within and extracted from RIS files. The resultant 
+    RIS files can be read as normal in other reference management tools, 
+    but contain an entire search history within their first record.
+Imports:
+  jsonlite,
+  readr,
+  synthesisr
+Suggests:
+  knitr,
+  rmarkdown
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
