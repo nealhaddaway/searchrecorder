@@ -2,6 +2,8 @@
 
 Searching for academic information in bibliographic databases often needs to be reported accurately and comprensively, for example when conducting a systematic review. Reporting search histories is challenging, however, since no standardised file format has previously been established to ensure sufficient information is reporting in the correct way to allow for evaluation and replication of searches. This package allows users to embed a standardised search history file within a traditional RIS reference file, recording how the references within were obtained. Functions allow search history files (stored as JSONs) to be embedded within and extracted from RIS files. The resultant RIS files can be read as normal in other reference management tools, but contain an entire search history within their first record.  
 
+***Check out the Shiny app demonstrating the application of the package and its functions <a href="https://estech.shinyapps.io/searchrecorder/" target="_blank">here</a>.***
+
 Install the package using the following code:
 `devtools::install_github("nealhaddaway/searchrecorder")`
 
