@@ -10,7 +10,7 @@ Haddaway, N. R.2022. searchrecorder: A tool for transparent reporting of search 
 <a id="raw-url" href="https://raw.githubusercontent.com/nealhaddaway/searchrecorder/master/inst/extdata/citation.ris">Citation in .ris format (right click 'Save Link As')</a>
 
 <!-- badges: start -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4543513.svg)](https://doi.org/10.5281/zenodo.4543513)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5920473.svg)](https://doi.org/10.5281/zenodo.5920473)
 
 ![GitHub all releases](https://img.shields.io/github/downloads/nealhaddaway/searchrecorder/total)
 ![GitHub Release Date](https://img.shields.io/github/release-date/nealhaddaway/searchrecorder)
