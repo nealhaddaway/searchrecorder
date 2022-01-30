@@ -12,7 +12,7 @@
 #' @param verbose Logical argument for printing a report to the 
 #' console. Default is set to TRUE
 #' @importFrom synthesisr read_refs
-#' @importfrom readr read_file
+#' @importFrom readr read_file
 #' @return An R object containing the RIS file contents in one or 
 #' more of three formats, as specified in 'output'
 #' @examples 

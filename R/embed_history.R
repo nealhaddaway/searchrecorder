@@ -7,6 +7,7 @@
 #' @param ris_input The input RIS file to be read into R.
 #' @param search_record The search record saved as a JSON file in 
 #' the standardised search data format.
+#' @importFrom utils write.table
 #' @return An RIS file containing the search record embedded in the 
 #' custom field of the first record in the file.
 #' @examples 
@@ -34,7 +35,7 @@ embed_history <- function(ris_input,
   ris_output <- paste0(ris_output, collapse='\n')
   
   # write as an RIS file
-  write.table(ris_output, file = "ris_output.ris", sep = "")
+  utils::write.table(ris_output, file = "ris_output.ris", sep = "")
   cat('Your modified RIS file ("ris_output.ris") has been saved to your working directory')
   
 }

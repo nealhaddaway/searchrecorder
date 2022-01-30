@@ -6,7 +6,7 @@ Authors@R: c(
          family = "Haddaway",
          role = c("aut", "cre"),
          email = "nealhaddaway@gmail.com",
-         comment = c(ORCID = "0000-0003-3902-2234"))
+         comment = c(ORCID = "0000-0003-3902-2234")))
 Description: Searching for academic information in bibliographic 
     databases often needs to be reported accurately and comprensively, 
     for example when conducting a systematic review. Reporting search 
@@ -23,7 +23,8 @@ Description: Searching for academic information in bibliographic
 Imports:
   jsonlite,
   readr,
-  synthesisr
+  synthesisr,
+  utils
 Suggests:
   knitr,
   rmarkdown

@@ -3,7 +3,7 @@ citHeader("To cite searchrecorder in publications, please use:")
 citEntry(
   entry    = "Article",
   title    = "searchrecorder: A tool for transparent reporting of search histories within reference files",
-  author   = "Neal R Haddaway,
+  author   = "Neal R Haddaway",
   journal  = "Zenodo",
   year     = "2022",
   url      = "https://github.com/nealhaddaway/searchrecorder",
