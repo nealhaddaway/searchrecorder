@@ -1,64 +1,61 @@
-"x"
-"1""\"1\" \"
-TY  - JOUR
 
+TY  - JOUR
 C1  - search_history_start{
-  \"record_info\": {
-    \"id_1\": \"https://www.doi.org/10.1897/687-asdg9-88.10\",
-    \"repository\": \"SearchRxiv, https://www.searchrxiv.org\",
-    \"internal_id\": \"10.1897/687-asdg9-88.10\"
+  "record_info": {
+    "id_1": "https://www.doi.org/10.1897/687-asdg9-88.10",
+    "repository": "SearchRxiv, https://www.searchrxiv.org",
+    "internal_id": "10.1897/687-asdg9-88.10"
   },
-  \"authors\": [
+  "authors": [
     {
-      \"name\": \"Seedre, M\",
-      \"ORCID\": \"0000-0002-3635-6354\",
-      \"email\": \"m.seedre@mail.com\"
+      "name": "Seedre, M",
+      "ORCID": "0000-0002-3635-6354",
+      "email": "m.seedre@mail.com"
     },
     {
-      \"name\": \"Felton, A\"
+      "name": "Felton, A"
     },
     {
-      \"name\": \"Lindbladh, M\"
+      "name": "Lindbladh, M"
     }
   ],
-  \"date\": {
-    \"data_entry\": \"2021.03.02\",
-    \"strategy_exported\": \"2021.03.02\",
-    \"search_conducted\": \"2020.01.01\",
-    \"search_updated_1\": \"2021.02.01\"
+  "date": {
+    "data_entry": "2021.03.02",
+    "strategy_exported": "2021.03.02",
+    "search_conducted": "2020.01.01",
+    "search_updated_1": "2021.02.01"
   },
-  \"string_name\": \"final\",
-  \"keywords\": [\"Alternative forest management\", \"Even-aged silviculture\", \"Uneven-aged silviculture\", \"Partial harvest\", \"Selection harvest\", \"Clear cut\", \"Clear fell\"],
-  \"related_records\": \"https://www.doi.org/10.5438/67dgh-t5666oop\",
-  \"parent_record\": \"https://www.doi.org/10.5438/67dgh-t56-78p\",
-  \"platform\": \"Web of Science\",
-  \"database\": [\"Social Sciences Citation Index (SSCI)\"],
-  \"search_string\": {
-    \"full_string\": \"TS=(clear-cut* OR clearcut* OR clearfell* OR clear-fell* OR \\"clear fell*\\" OR even-aged OR uneven-aged) AND (forest* OR tree*)\",
-    \"management block\": \"TS=(clear-cut* OR clearcut* OR clearfell* OR clear-fell* OR \\"clear fell*\\" OR even-aged OR uneven-aged)\",
-    \"forest block\": \"TS=(forest* OR tree*)\"
+  "string_name": "final",
+  "keywords": ["Alternative forest management", "Even-aged silviculture", "Uneven-aged silviculture", "Partial harvest", "Selection harvest", "Clear cut", "Clear fell"],
+  "related_records": "https://www.doi.org/10.5438/67dgh-t5666oop",
+  "parent_record": "https://www.doi.org/10.5438/67dgh-t56-78p",
+  "platform": "Web of Science",
+  "database": ["Social Sciences Citation Index (SSCI)"],
+  "search_string": {
+    "full_string": "TS=(clear-cut* OR clearcut* OR clearfell* OR clear-fell* OR \"clear fell*\" OR even-aged OR uneven-aged) AND (forest* OR tree*)",
+    "management block": "TS=(clear-cut* OR clearcut* OR clearfell* OR clear-fell* OR \"clear fell*\" OR even-aged OR uneven-aged)",
+    "forest block": "TS=(forest* OR tree*)"
   },
-  \"search_field\": null,
-  \"database_time_coverage\": {
-    \"database_time_from\": \"1945.01.01\",
-    \"database_time_to\": \"2021.12.31\"
+  "search_field": null,
+  "database_time_coverage": {
+    "database_time_from": "1945.01.01",
+    "database_time_to": "2021.12.31"
   },
-  \"search_time_span\": null,
-  \"search_language\": [\"en\"],
-  \"settings\": {
-    \"lemmatization\": \"TRUE\",
-    \"spellchecking\": \"Suggest\"
+  "search_time_span": null,
+  "search_language": ["en"],
+  "settings": {
+    "lemmatization": "TRUE",
+    "spellchecking": "Suggest"
   },
-  \"quality_assurance\": [\"appears in published protocol\"],
-  \"validation_report\": [\"https://www.doi.org/10.5438/67dgh-t56-78b\"],
-  \"peer_review\": [\"https://pubpeer.com/publications/3C0A753937515D4ACAEDB31CAE22C2\"],
-  \"description\": \"The search was conducted as part of a systematic review, developed during the publication of a protocol ([link]) and finalised during conduct of a systematic review ([link])\",
-  \"review_question\": \"What is the impact of continuous cover forestry compared to clearcut forestry on stand-level biodiversity in boreal and temperate forests?\",
-  \"review_type\": \"systematic review\",
-  \"linked_protocol\": [\"https://www.doi.org/10.1186/s13750-018-0138-y\"],
-  \"linked_report\": [\"https://www.doi.org/10.5438/55e-987-a5-t5c0\"]
+  "quality_assurance": ["appears in published protocol"],
+  "validation_report": ["https://www.doi.org/10.5438/67dgh-t56-78b"],
+  "peer_review": ["https://pubpeer.com/publications/3C0A753937515D4ACAEDB31CAE22C2"],
+  "description": "The search was conducted as part of a systematic review, developed during the publication of a protocol ([link]) and finalised during conduct of a systematic review ([link])",
+  "review_question": "What is the impact of continuous cover forestry compared to clearcut forestry on stand-level biodiversity in boreal and temperate forests?",
+  "review_type": "systematic review",
+  "linked_protocol": ["https://www.doi.org/10.1186/s13750-018-0138-y"],
+  "linked_report": ["https://www.doi.org/10.5438/55e-987-a5-t5c0"]
 }search_history_end
-
 AU  - Dawson, L. E. R.; O'Kiely, Padraig; Moloney, A.P.; Vipond, J. E.; Wylie, A. R. G.; Carson, A. F.; Hyslop, J. J.
 TI  - Grassland systems of red meat production: integration between biodiversity, plant nutrient utilisation, greenhouse gas emissions and meat nutritional quality.
 PY  - 2011
@@ -1881,7 +1878,7 @@ TY  - JOUR
 AU  - Drury, Craig F.; Reynolds, W.D.; Tan, Chin S.; Welacky, T. W.; Calder, W.; McLaughlin, Neil B.
 TI  - Emissions of Nitrous Oxide and Carbon Dioxide
 PY  - 2006
-AB  - Innovative management practices are required to increase the efficiency of N fertilizer usage and to reduce nitrous oxide (N 2 O) and carbon dioxide (CO 2 ) emissions from agricultural soils. The objectives of this study were to evaluate the feasibility of using conservation tillage and N fertilizer placement depth to reduce N 2 O and CO 2 emissions associated with corn (Zea mays L.) production on clay loam soils in Eastern Canada. A 3-yr field study was established on a wheat (Triticum aestivum L.)-corn-soybean [Glycine max (L.) Merr.] rotation with each phase of the rotation present every year. Investigations were focused on the corn phase of the rotation. The tillage treatments following winter wheat included fall moldboard plow tillage (15 cm depth), fall zone-tillage (21 cm width, 15 cm depth), and no-tillage. The N placement treatments were \\"shallow\\" placement of sidedress N (2-cm depth) and \\"deep\\" placement of sidedress N (10-cm depth). Nitrous oxide emissions were measured 53 times and CO 2 emissions were measured 43 times over three growing seasons using field-based sampling chambers. There was a significant tillage and N placement interaction on N 2 O emissions. Averaged over all three tillage systems and site-years, N 2 O emissions from shallow N placement (2.83 kg N ha -1 yr -1 ) were 26% lower than deep N placement (3.83 kg N ha -1 yr -1 ). The N 2 O emissions were similar among the tillage treatments when N was placed in the soil at a shallow depth. However, when N was placed deeper in the soil (10 cm), the 3-yr average N 2 O emissions from zone-tillage (2.98 kg N ha -1 yr -1 ) were 20% lower than from no-tillage (3.71 kg N ha -1 yr -1 ) and 38% lower than those from moldboard plow tillage (4.81 kg N ha -1 yr -1 ). Tillage type and N placement depth did not affect CO 2 emissions (overall average = 5.80 Mg C ha -1 yr -1 ). Hence, zone-tillage and shallow N placement depth reduced N 2 O emissions without affecting CO 2 emissions.
+AB  - Innovative management practices are required to increase the efficiency of N fertilizer usage and to reduce nitrous oxide (N 2 O) and carbon dioxide (CO 2 ) emissions from agricultural soils. The objectives of this study were to evaluate the feasibility of using conservation tillage and N fertilizer placement depth to reduce N 2 O and CO 2 emissions associated with corn (Zea mays L.) production on clay loam soils in Eastern Canada. A 3-yr field study was established on a wheat (Triticum aestivum L.)-corn-soybean [Glycine max (L.) Merr.] rotation with each phase of the rotation present every year. Investigations were focused on the corn phase of the rotation. The tillage treatments following winter wheat included fall moldboard plow tillage (15 cm depth), fall zone-tillage (21 cm width, 15 cm depth), and no-tillage. The N placement treatments were \"shallow\" placement of sidedress N (2-cm depth) and \"deep\" placement of sidedress N (10-cm depth). Nitrous oxide emissions were measured 53 times and CO 2 emissions were measured 43 times over three growing seasons using field-based sampling chambers. There was a significant tillage and N placement interaction on N 2 O emissions. Averaged over all three tillage systems and site-years, N 2 O emissions from shallow N placement (2.83 kg N ha -1 yr -1 ) were 26% lower than deep N placement (3.83 kg N ha -1 yr -1 ). The N 2 O emissions were similar among the tillage treatments when N was placed in the soil at a shallow depth. However, when N was placed deeper in the soil (10 cm), the 3-yr average N 2 O emissions from zone-tillage (2.98 kg N ha -1 yr -1 ) were 20% lower than from no-tillage (3.71 kg N ha -1 yr -1 ) and 38% lower than those from moldboard plow tillage (4.81 kg N ha -1 yr -1 ). Tillage type and N placement depth did not affect CO 2 emissions (overall average = 5.80 Mg C ha -1 yr -1 ). Hence, zone-tillage and shallow N placement depth reduced N 2 O emissions without affecting CO 2 emissions.
 SP  - 570
 EP  - 581
 JF  - Soil Science Society of America Journal
@@ -3132,4 +3129,4 @@ VL  - 93
 IS  - 1-3
 PB  - Elsevier BV
 DO  - 10.1016/j.agsy.2006.05.005
-ER  - \""
+ER  - "

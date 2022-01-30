@@ -1,0 +1,11 @@
+name: searchrecorder
+title:
+username:
+account: estech
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5542600
+bundleId: 5524170
+url: https://estech.shinyapps.io/searchrecorder/
+when: 1643569684.32737
+lastSyncTime: 1643569684.32738
