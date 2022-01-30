@@ -7,10 +7,10 @@ citEntry(
   journal  = "Zenodo",
   year     = "2022",
   url      = "https://github.com/nealhaddaway/searchrecorder",
-  doi      = "10.5281/zenodo.4543513",
+  doi      = "10.5281/zenodo.5920473",
   textVersion = paste(
   "Neal R Haddaway (2022).",
   "searchrecorder: A tool for transparent reporting of search histories within reference files",
-  "Zenodo. https://doi.org/10.5281/zenodo.4543513"
+  "Zenodo. https://doi.org/10.5281/zenodo.5920473"
   )
 )

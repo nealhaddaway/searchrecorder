@@ -6,7 +6,7 @@ Install the package using the following code:
 `devtools::install_github("nealhaddaway/searchrecorder")`
 
 Please cite as:<br>
-Haddaway, N. R.2022. searchrecorder: A tool for transparent reporting of search histories within reference files. doi: <a href="https://doi.org/10.5281/zenodo.4543513" target="_blank">10.5281/zenodo.4543513</a><br>
+Haddaway, N. R.2022. searchrecorder: A tool for transparent reporting of search histories within reference files. doi: <a href="https://doi.org/10.5281/zenodo.5920473" target="_blank">10.5281/zenodo.5920473</a><br>
 <a id="raw-url" href="https://raw.githubusercontent.com/nealhaddaway/searchrecorder/master/inst/extdata/citation.ris">Citation in .ris format (right click 'Save Link As')</a>
 
 <!-- badges: start -->
