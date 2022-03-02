@@ -1,0 +1,97 @@
+body {
+	text-align: left;
+	margin: 4px;
+	padding: 4px;
+	min-width:200px;
+}
+textarea {
+  width: 600px;
+  height: 20px;
+}
+p,
+#notes {
+	font-family: Roboto, Arial;
+}
+h3 {
+	font-size: 16px;
+	display: inline;
+	letter-spacing: 1px;
+}
+p {
+	font-size: 100%;
+}
+a {
+	text-decoration: none;
+}
+h3:hover,
+p:hover {
+	cursor: default;
+}
+#notes {
+	min-width: 600px;
+	min-height: 20px;
+	width: 600px;
+	height: 20px;
+	max-width: 600px;
+	max-height: 20px;
+	outline: 0px !important;
+	caret-color: #f90;
+}
+#appIcon {
+	width: 32px; /* icon width, used in animation.css */
+}
+#rgbLogo {
+	width: 48px;
+}
+.icon-btn {
+	border-radius: 50%;
+	margin: 2px;
+	font-size: 0px; /* fix for button size */
+}
+.icon-btn:hover {
+	cursor: pointer;
+}
+.icon {
+	padding: 8px;
+}
+h3,
+p,
+.icon,
+img,
+details {
+	user-select: none;
+}
+hr {
+	border: 1px dashed #666;
+}
+kbd {
+	border-radius: 4px;
+	padding: 4px;
+	margin: 4px;
+	display: inline-block;
+}
+ul {
+	text-align: left;
+	padding-left: 20px;
+}
+button {
+	/* reset button styles */
+	border: none;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+}
+#menuIcon {
+	left: 0;
+	text-align: left;
+	position: absolute;
+}
+.modal-content p {
+	line-height: 20px;
+}
+#help-modal .modal-content {
+	text-align: left;
+}
+.icon-btn.active {
+	background-color: #f69;
+}

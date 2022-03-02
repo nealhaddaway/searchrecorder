@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>SearchRecorder</title>
+    <link id="theme" rel="stylesheet" href="css/day.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/modal.js"></script>
+</head>
+
+<body>
+    <h3><b>SearchRecorder</b></h3>
+    <br>
+    <img id="appIcon" draggable="false" src="img/icon.svg"></img>
+    <br>
+    <div id="outterDiv">
+        <div id="underlineDiv">
+            <div id="squiggle"></div>
+        </div>
+    </div>
+
+    <p>Search name:<br><textarea id="string_name" placeholder="Give your search a name" spellcheck="false"></textarea></p>
+    <p>Tags/keywords:<br><textarea id="keywords" placeholder="Use keywords to describe your search" spellcheck="false"></textarea></p>
+    <p>Platform:<br><textarea id="platform" placeholder="Platform used to search (e.g. Web of Science)" spellcheck="false"></textarea></p>
+    <p>Database:<br><textarea id="database" placeholder="Database searched (e.g. SCIE)" spellcheck="false"></textarea></p>
+    <p>Search string:<br><textarea id="full_string" placeholder="Paste in your search string" spellcheck="false"></textarea></p>
+    <p>Search field:<br><textarea id="search_field" placeholder="Optional search field (e.g. 'TS')" spellcheck="false"></textarea></p>
+    <p>Database start date:<br><textarea id="database_time_from" placeholder="Start of database coverage (if known)" spellcheck="false"></textarea><br>Unknown<input type="checkbox" id="database_time_from_unkown"></p>
+    <p>Database end date:<br><textarea id="database_time_to" placeholder="End of database coverage (if known)" spellcheck="false"></textarea><br>Unknown<input type="checkbox" id="database_time_to_unkown">
+    <p>Time restrictions:<br><textarea id="search_time_span" placeholder="Time restrictions applied to the search (e.g. 2010-2015)" spellcheck="false"></textarea></p>
+    <p>Search language setting:<br><textarea id="search_time_span" placeholder="Optional language settings (e.g. 'en')" spellcheck="false"></textarea></p>
+    <p>Other settings:<br><textarea id="settings" placeholder="Other settings applied to the search" spellcheck="false"></textarea></p>
+    <textarea id="notes" placeholder="Type here" spellcheck="false"></textarea>
+    <div id="iconDiv"></div>
+
+
+    <!-- Modals -->
+
+    <div id="help-modal" class="modal">
+        <div class="modal-content">
+            <button class="icon-btn close">
+                <img src="img/icon/close.svg" class="icon">
+            </button>
+            <img src="img/icon/help.svg" class="modal-icon">
+            <h3>Help</h3>
+            <br>
+            <p>Copy and paste the relevant information into the data fields.</p>
+            <p>Try to complete as much information as possible.</p>
+            <p>Once you've completed the form, click 'Download Search Record' to save your search history to your computer as a .txt file.</p>
+            <p>You can then upload your search history to <a href="www.searchrxiv.org" target="_blank">www.searchrxiv.org</a> or another repository for transparent record keeping and reporting.</p>
+            <p>This is a new tool and my first Chrome extension, so enjoy and thanks for using it!</p>
+            <p>Neal Haddaway 2022</p>
+        </div>
+    </div>
+
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <button class="icon-btn close">
+                <img src="img/icon/close.svg" class="icon">
+            </button>
+            <img src="img/icon/info.svg" class="modal-icon">
+            <h3>About</h3>
+            <p id="version"></p>
+            <img id="rgbLogo" src="img/rgb-logo.svg">
+            <p>Neal R Haddaway</p>
+            <a href="https://www.github.org/nealhaddaway" target="_blank">Neal Haddaway on GitHub</a>
+            <br>
+            <a href="mailto:neal_haddaway@hotmail.com?Subject=Regarding%20SearchRecorder"
+                target="_blank">neal_haddaway@hotmail.com</a>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

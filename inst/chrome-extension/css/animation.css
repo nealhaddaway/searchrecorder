@@ -1,0 +1,45 @@
+#appIcon {
+	-webkit-animation: rotation 5s infinite ease-in-out;
+}
+#underlineDiv {
+	-webkit-animation: growWidth 5s infinite ease-in-out;
+}
+#outterDiv {
+	margin: 0px auto;
+	width: 32px; /* icon width */
+}
+#squiggle {
+	/* https://stackoverflow.com/questions/17285514/is-it-possible-to-make-a-squiggly-line */
+	position: relative;
+	height: 20px;
+	width: 1000%;
+	transform: translateX(-45%) scale(0.1);
+
+	background: linear-gradient(45deg, transparent 45%, #666, transparent 55%),
+		linear-gradient(-45deg, transparent 45%, #666, transparent 55%);
+
+	background-size: 40px 40px;
+}
+
+@-webkit-keyframes rotation {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(-90deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+@-webkit-keyframes growWidth {
+	0% {
+		width: 0px;
+	}
+	50% {
+		width: 32px;
+	} /* icon width */
+	100% {
+		width: 0px;
+	}
+}

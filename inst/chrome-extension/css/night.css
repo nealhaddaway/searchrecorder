@@ -1,0 +1,48 @@
+body,
+#notes {
+	background-color: #333;
+}
+h3 {
+	color: #ccc;
+}
+p,
+#keyboard-modal li {
+	color: #999;
+}
+a {
+	color: #f69;
+}
+a:hover {
+	color: #f90;
+}
+#notes {
+	color: #999;
+	border: 2px solid #999;
+}
+#notes:focus {
+	color: #ccc;
+	border: 2px solid #ccc;
+}
+.icon-btn:hover {
+	background-color: #f69;
+}
+.icon-btn:active {
+	background-color: #f90;
+}
+::selection {
+	background: #f69;
+	color: #fff;
+}
+* {
+	outline-color: #f69;
+}
+.modal-content {
+	background-color: #333;
+}
+kbd {
+	background-color: #999;
+	color: #333;
+}
+#night-mode {
+	background-color: #f69;
+}
